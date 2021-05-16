@@ -2,7 +2,7 @@
 
 ___
 
-![Labling](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/greetings.yml/label.svg)
+![Labling](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/label.yml/badge.svg)
 
 ## About
 
