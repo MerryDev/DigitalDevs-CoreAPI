@@ -36,6 +36,3 @@ jobs:
       run: mvn -f github-actions-java-maven/pom.xml clean verify
     - name: Upload Maven build artifact
       uses: actions/upload-artifact@v1
-      with:
-        name: artifact
-        path: github-actions-java-maven/target/github-actions-java-maven.jar
