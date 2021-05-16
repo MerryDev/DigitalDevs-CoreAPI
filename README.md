@@ -2,7 +2,7 @@
 
 ___
 
-![Build](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/greetings.yml/badge.svg)
+![Tests](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/tests.yml/badge.svg)
 
 ## About
 
