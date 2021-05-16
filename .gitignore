@@ -1,0 +1,6 @@
+.idea
+.javadocs
+target
+buildNumber.properties
+dependency-reduced-pom.xml
+DigitalDevs - CoreAPI.iml
