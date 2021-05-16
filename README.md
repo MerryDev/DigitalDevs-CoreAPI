@@ -2,7 +2,7 @@
 
 ___
 
-[Build](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/maven.yml/badge.svg)
+![Build](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/maven.yml/badge.svg)
 
 ## About
 
