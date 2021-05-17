@@ -1,5 +1,6 @@
 .idea
 .javadocs
+.wiki
 target
 buildNumber.properties
 dependency-reduced-pom.xml
