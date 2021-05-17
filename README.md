@@ -3,8 +3,7 @@
 ___
 
 ![Build](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/maven.yml/badge.svg)
-[![Generic badge](https://img.shields.io/badge/version-1.0-brightgreen.svg)](https://shields.io/)
-[![GitHub version](https://badge.fury.io/gh/MerryDev%2FDigitalDevs-CoreAPI.svg)](https://badge.fury.io/gh/MerryDev%2FDigitalDevs-CoreAPI)
+[![Generic badge](https://img.shields.io/badge/version-1.0-informational.svg)](https://shields.io/)
 
 ## About
 
