@@ -23,6 +23,3 @@ Der aktuelle Build der API umfasst folgende Inhalte und Funktionen:
     * Komplett mit einem Item ausgefüllte Inventare
     * Inventare mit einer Umrandung aus einem Item
 * Lizenzsystem für Plugins auf Basis der Bungeecord Serversoftware und für auf nicht Bungeecord basierende Plugins
-
-
-
