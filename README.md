@@ -3,8 +3,7 @@
 ___
 
 ![Build](https://github.com/MerryDev/DigitalDevs-CoreAPI/actions/workflows/maven.yml/badge.svg)
-[![Generic badge](https://img.shields.io/badge/version-1.0-brightgreen.svg)](https://shields.io/)
-[![GitHub version](https://badge.fury.io/gh/MerryDev%2FDigitalDevs-CoreAPI.svg)](https://badge.fury.io/gh/MerryDev%2FDigitalDevs-CoreAPI)
+[![Generic badge](https://img.shields.io/badge/version-1.0-informational.svg)](https://shields.io/)
 
 ## About
 
@@ -24,6 +23,3 @@ Der aktuelle Build der API umfasst folgende Inhalte und Funktionen:
     * Komplett mit einem Item ausgefüllte Inventare
     * Inventare mit einer Umrandung aus einem Item
 * Lizenzsystem für Plugins auf Basis der Bungeecord Serversoftware und für auf nicht Bungeecord basierende Plugins
-
-
-
