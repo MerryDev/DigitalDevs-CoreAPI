@@ -31,11 +31,12 @@ public class ClassAccessor {
      * Gets the {@code net.minecraft.server class} with the specific name. <br>
      * This method is using the {@code access()}-method.
      *
-     * @param clazzName The name of the class. Cannot be null.
+     * @param clazzName     The name of the class. Cannot be null.
+     * @param serverVersion The version the server is running on. Cannot be null.
      * @return The class or {@code null} if no class with the given name was found.
      */
-    public static Class<?> accessNMSClazz(@NotNull String clazzName) {
-        return access("net.minecraft.server." + clazzName);
+    public static Class<?> accessNMSClazz(@NotNull String clazzName, @NotNull String serverVersion) {
+        return access("net.minecraft.server." + serverVersion + "." + clazzName);
     }
 
     /**
