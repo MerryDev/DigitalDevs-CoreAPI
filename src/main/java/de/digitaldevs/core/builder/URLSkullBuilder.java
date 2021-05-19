@@ -72,9 +72,9 @@ public class URLSkullBuilder {
         return uuid.replaceAll("(\\w{8})(\\w{4})(\\w{4})(\\w{4})(\\w{12})", "$1-$2-$3-$4-$5");
     }
 
-    private String readURL(String url) {
+    private String readURL(String[] url) {
         try {
-            Process process = Runtime.getRuntime().exec("curl " + url);
+            Process process = Runtime.getRuntime().exec("curl " + url[0]);
             InputStreamReader inputStreamReader = new InputStreamReader(process.getInputStream());
             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
             StringBuilder line = new StringBuilder();
@@ -91,14 +91,14 @@ public class URLSkullBuilder {
     }
 
     private String cacheUserByName(String name) {
-        String url1 = readURL("https://api.minetools.eu/uuid/" + name);
+        String url1 = readURL(new String[]{"https://api.minetools.eu/uuid/" + name});
         if (url1 != null) {
             Object json = PARSER.parse(url1);
             JsonObject object = (JsonObject) json;
             JsonElement uuidElement = object.get("id");
             if (uuidElement.getAsString().equals("null")) return null;
             String uuid = convertUUID(uuidElement.getAsString());
-            String url = readURL("https://api.minetools.eu/profile/" + uuid.replace("-", ""));
+            String url = readURL(new String[]{"https://api.minetools.eu/profile/" + uuid.replace("-", "")});
             if (url != null) {
                 json = PARSER.parse(url);
                 object = (JsonObject) json;
