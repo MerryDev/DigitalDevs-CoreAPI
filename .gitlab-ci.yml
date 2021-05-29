@@ -1,0 +1,5 @@
+build:
+  variables:
+    CI_SERVER_URL: "https://git.yanis-93.de/"
+  script:
+    - 'echo "$CI_SERVER_RL"'
