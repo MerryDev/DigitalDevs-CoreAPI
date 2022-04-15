@@ -6,7 +6,7 @@
 
     <groupId>de.digitaldevs</groupId>
     <artifactId>core</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>CoreAPI</name>
