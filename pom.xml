@@ -86,13 +86,6 @@
             <artifactId>annotations</artifactId>
             <version>19.0.0</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.spigotmc</groupId>-->
-<!--            <artifactId>spigot</artifactId>-->
-<!--            <version>1.8.8-R0.1-SNAPSHOT</version>-->
-<!--            <scope>system</scope>-->
-<!--            <systemPath>${basedir}/lib/spigot-1.8.8-R0.1-SNAPSHOT.jar</systemPath>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>com.destroystokyo.paper</groupId>
             <artifactId>paper</artifactId>
