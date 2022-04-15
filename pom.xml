@@ -7,6 +7,7 @@
     <groupId>de.digitaldevs</groupId>
     <artifactId>core</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
 
     <name>CoreAPI</name>
     <description>CoreAPI von DigitalDevsDE</description>
@@ -85,12 +86,17 @@
             <artifactId>annotations</artifactId>
             <version>19.0.0</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.spigotmc</groupId>-->
+<!--            <artifactId>spigot</artifactId>-->
+<!--            <version>1.8.8-R0.1-SNAPSHOT</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${basedir}/lib/spigot-1.8.8-R0.1-SNAPSHOT.jar</systemPath>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.8.8-R0.1-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/spigot-1.8.8-R0.1-SNAPSHOT.jar</systemPath>
+            <groupId>com.destroystokyo.paper</groupId>
+            <artifactId>paper</artifactId>
+            <version>1.8</version>
         </dependency>
         <dependency>
             <groupId>net.md-5</groupId>
